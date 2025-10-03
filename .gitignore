@@ -1,0 +1,10 @@
+# Ignore user data file
+todo.json
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+venv/
+
+# Ignore macOS system files
+.DS_Store
