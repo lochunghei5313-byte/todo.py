@@ -16,17 +16,33 @@ Data Persistence: Tasks are saved locally in todo.json.
 To get started, you only need Python 3 installed on your system.
 
 1. Clone the repository:
-   git clone https://github.com/lochunghei5313-byte/todo.py.git
+
+git clone https://github.com/lochunghei5313-byte/todo.py.git
 cd todo.py
 
 2. Run the script:
-   All commands start with python3 todo.py.
+
+All commands start with python3 todo.py.
 
 # Usage Guide
 The tool prioritizes instructions first, followed by the output. Use single quotes ('...') for descriptions that contain spaces.
 
 1. Adding Tasks (add)
-  Creates a new task.
+
+Creates a new task.
+
+# Adds a new task
+python3 todo.py add 'Prepare Friday presentation slides'
+
+2. Listing Tasks (list)
+
+Displays all tasks by default.
+
+Command	Purpose
+python3 todo.py list	Show all tasks.
+python3 todo.py list --status pending	Show only pending tasks.
+python3 todo.py list --status done	Show only completed tasks.
+
 
 
 
