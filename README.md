@@ -1,15 +1,10 @@
-Great\! To make sure the content is perfect for direct pasting, I've confirmed that all code blocks use the correct triple backticks (\`\`\`) with language highlighting, and all formatting is strictly **Markdown**.
+## To-Do List Manager (Python)
 
-Here is the entire content block, ready to be copied and pasted directly into the GitHub editing page for your `README.md`:
-
-````markdown
-## 📝 CLI To-Do List Manager (Python)
-
-A simple, yet powerful command-line interface (CLI) tool written in **Python** for managing personal and professional tasks. Tasks are persistently stored in a local `todo.json` file.
+A simple, yet powerful command-line interface tool written in **Python** for managing personal and professional tasks. Tasks are persistently stored in a local `todo.json` file.
 
 The tool features robust command wrappers, advanced capabilities like status filtering, batch operations, and a clear instruction-first output structure.
 
-### 🚀 Features
+### Features
 
 * **CRUD Operations:** Easily `add`, `list`, `done`, `delete`, and `remark` tasks.
 * **Batch Processing:** Execute multiple commands in a single line using the powerful `batch` command.
@@ -18,13 +13,13 @@ The tool features robust command wrappers, advanced capabilities like status fil
 
 ***
 
-### 📦 Installation & Setup
+### Installation & Setup
 
 To get started, you only need **Python 3** installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/lochunghei5313-byte/todo.py.git
+    git clone [https://github.com/lochunghei5313-byte/todo.py.git](https://github.com/lochunghei5313-byte/todo.py.git)
     cd todo.py
     ```
 
@@ -33,7 +28,7 @@ To get started, you only need **Python 3** installed on your system.
 
 ***
 
-### 📖 Usage Guide
+### Usage Guide
 
 The tool prioritizes instructions first, followed by the output. Use single quotes (`'...'`) for descriptions or remarks that contain spaces.
 
@@ -82,7 +77,7 @@ python3 todo.py batch "add 'Review team notes'; done 3; list"
 
 -----
 
-### 🧹 Maintenance Commands
+### Maintenance Commands
 
 | Command | Purpose |
 | :--- | :--- |
@@ -92,7 +87,7 @@ python3 todo.py batch "add 'Review team notes'; done 3; list"
 
 -----
 
-### 🤝 Contributing
+### Contributing
 
 Feel free to submit issues or suggest features\!
 
